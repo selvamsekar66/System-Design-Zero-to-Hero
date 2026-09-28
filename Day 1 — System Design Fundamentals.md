@@ -1,6 +1,6 @@
 # Day 1: System Design Fundamentals
 
-## Contents
+## Table of contents
 
 - [1. What is system design?](#1-what-is-system-design)
 - [2. Why do we need system design?](#2-why-do-we-need-system-design)
@@ -19,6 +19,8 @@
 - [Quick revision](#day-1-quick-revision)
 - [Self-test](#day-1-self-test)
 
+---
+
 ## 1. What is system design?
 
 System design is the process of deciding how different technical components should work together to solve a business problem.
@@ -34,7 +36,8 @@ As a system grows, consider its:
 - Security
 - Trade-offs
 
-> **Remember:** Don't start with technology. Start with the problem.
+> [!TIP]
+> Start with the problem, not with the technology.
 
 ## 2. Why do we need system design?
 
@@ -49,7 +52,8 @@ System design helps us think about:
 - Securing the system
 - Controlling cost and complexity
 
-> **Remember:** System design becomes important when a simple solution is no longer enough.
+> [!IMPORTANT]
+> System design becomes important when a simple solution is no longer enough.
 
 ## 3. What is the difference between HLD and LLD?
 
@@ -123,7 +127,8 @@ NFRs describe **how well the system should work**. Examples include:
 - Reliable
 - Secure
 
-> **Remember:** Functional requirements tell us what to build. Non-functional requirements influence how we build it.
+> [!NOTE]
+> Functional requirements tell us what to build. Non-functional requirements influence how we build it.
 
 ## 6. What should I do first when given a system design problem?
 
@@ -142,7 +147,8 @@ First, ask:
 - What scale should we expect?
 - Which non-functional requirements matter most?
 
-> **Remember:** Requirements first. Architecture second. Technology third.
+> [!TIP]
+> Requirements first. Architecture second. Technology third.
 
 ## 7. What is the typical system design process?
 
@@ -190,7 +196,8 @@ Then ask:
 - What happens when traffic increases?
 - What happens when a component fails?
 
-> **Remember:** Break a large system into smaller problems.
+> [!TIP]
+> Break a large system into smaller problems.
 
 ## 10. Why do architects care about trade-offs?
 
@@ -201,7 +208,8 @@ For example:
 - More availability can require more infrastructure and increase cost.
 - More services can enable independent scaling but add operational complexity.
 
-> **Remember:** Good architecture isn't about finding the perfect solution. It's about choosing a solution that fits the requirements and accepting its trade-offs.
+> [!IMPORTANT]
+> Good architecture is not about finding the perfect solution. It is about choosing a solution that fits the requirements and accepting its trade-offs.
 
 ## 11. Why should I think about failures while designing?
 
@@ -254,6 +262,8 @@ Keep these eight questions in mind:
 
 These questions will stay useful throughout your system design journey.
 
+---
+
 ## Day 1: Quick revision
 
 If you have only two minutes before starting Day 2, remember this:
@@ -269,6 +279,8 @@ If you have only two minutes before starting Day 2, remember this:
 | Non-functional requirement | How well should it work? |
 | Architect mindset | Don't just ask "What should we use?" Ask "Why?" |
 | Most important habit | Always consider what happens when something fails. |
+
+---
 
 ## Day 1: Self-test
 
