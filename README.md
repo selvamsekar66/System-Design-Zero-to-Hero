@@ -34,8 +34,9 @@ By working through this material, you will learn how to:
 
 | File | Topic |
 | --- | --- |
-| [Day 1 — System Design Fundamentals.md](Day%201%20%E2%80%94%20System%20Design%20Fundamentals.md) | Core foundations: requirements, HLD vs LLD, trade-offs, scale, and failure thinking |
-| [Day 2 System Design Approach.md](Day%202%20System%20Design%20Approach.md) | A practical system design approach and thinking framework |
+| [Day-01-system-design-fundamentals.md](Day-01-system-design-fundamentals.md) | Core foundations: requirements, HLD vs LLD, trade-offs, scale, and failure thinking |
+| [Day-02-system-design-approach.md](Day-02-system-design-approach.md) | A practical system design approach and thinking framework |
+| [Day-03-HLD-vs-LLD.md](Day-03-HLD-vs-LLD.md) | High-level design vs low-level design thinking and interview mindset |
 
 ---
 
@@ -54,7 +55,7 @@ By working through this material, you will learn how to:
 
 ## How to use this repo
 
-1. Start with [Day 1 — System Design Fundamentals.md](Day%201%20%E2%80%94%20System%20Design%20Fundamentals.md).
+1. Start with [Day-01-system-design-fundamentals.md](Day-01-system-design-fundamentals.md).
 2. Read the concept and answer the self-test questions before looking back.
 3. Revisit key ideas repeatedly; this skill improves with repetition and reasoning.
 4. Apply the same thinking to systems like Instagram, WhatsApp, URL shorteners, chat platforms, and e-commerce services.
@@ -107,7 +108,7 @@ This mindset matters more than memorizing a single answer.
 
 - Day 1: System Design Fundamentals
 - Day 2: System Design Approach
-- Day 3: Storage, Databases, and Data Modeling
+- Day 3: High-Level Design vs Low-Level Design
 - Day 4: Caching, Messaging, and Performance Optimization
 - Day 5: Availability, Reliability, and Failure Handling
 - Day 6: Real-World Case Studies and Interview Practice
